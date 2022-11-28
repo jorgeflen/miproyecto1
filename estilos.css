@@ -1,0 +1,13 @@
+body{
+    background-color: aqua;
+    font-family: 'roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+}
+
+p{
+    color:chocolate;
+    font-size: 18px;
+}
