@@ -1,5 +1,4 @@
-<!--Con esto indicamos que esto esta en HTML 5-->
-<!DOCTYPE html>
+<!DOCTYPE html>  <!--Con esto indicamos que esto esta en HTML 5-->
 <html>
 <head>
     <title>Mi primera pagina</title>
@@ -7,24 +6,84 @@
 </head>
 <body>
     <!-- Este es un comentario-->
-<h1 style="color:blue">Hola Mundo!!</h1>
-<h2>Este es una Etiqueta de tipo 2</h2>
-<h3>Este es una Etiqueta de Tipo 3</h3>
-<h4>Este es una Etiqueta de Tipo 4</h4>
-<h5>Este es una Etiqueta de Tipo 5</h5>
-<h6>Este es una Etiqueta de Tipo 6</h6>
-<p>Este es un Parrafo, se utiliza para escribir un texto mas largo y descripciones largas</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. dicta consequatur a, vel fugit <br> enim distinctio iure provident quos nobis illum rerum reprehenderit odit dolore eligendi ipsa et earum doloribus!</p>
-<hr>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. dicta consequatur a, vel fugit <br> enim distinctio iure provident quos nobis illum rerum reprehenderit odit dolore eligendi ipsa et earum doloribus!</p>
-<a href="http://google.com" target="_blank">Soy un Links a Google</a>
-<h3>Este es nuestro mundo</h3>
-<img src="mundo.jpg" alt="Planeta Tierra" width="300" height="300">
-<div>Etiqueta de tipo contenedor</div>
-<main>Etiqueta de tipo contenedor</main>
-<head>Etiqueta de tipo contenedor</head>
-<footer>Etiqueta de tipo contenedor</footer>
-<section>Etiqueta de tipo contenedor</section>
-<article>Etiqueta de tipo contenedor</article>    
+    <h1 style="color:blue">Hola Mundo!!</h1>
+    <h2>Este es una Etiqueta de tipo 2</h2>
+    <h3>Este es una Etiqueta de Tipo 3</h3>
+    <h4>Este es una Etiqueta de Tipo 4</h4>
+    <h5>Este es una Etiqueta de Tipo 5</h5>
+    <h6>Este es una Etiqueta de Tipo 6</h6>
+    <p>Este es un Parrafo, se utiliza para escribir un texto mas largo y descripciones largas</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. dicta consequatur a, vel fugit <br> enim distinctio iure provident quos nobis illum rerum reprehenderit odit dolore eligendi ipsa et earum doloribus!</p>
+    <hr>
+    <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. dicta consequatur a, vel fugit <br> enim distinctio iure provident quos nobis illum rerum reprehenderit odit dolore eligendi ipsa et earum doloribus!</p>
+    <a href="http://google.com" target="_blank">Soy un Links a Google</a> <hr>
+    <!-- ul es para hacer una Lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+    </ul>
+    <!-- ol es para hacer una Lista ordenada-->
+    <ol>
+        <li value="40">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type:lower-roman">Sub Elemento 1</li>
+                <li style="list-style-type:lower-alpha">Sub Elemento 2</li>
+                <li style="list-style-type:lower-roman">Sub Elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+    <!-- Esta es una Tabla-->
+    <table>
+        <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Chanchito Feliz</td>
+            <td>$3.500.-</td>
+        </tr>
+        <tr>
+            <td>Chanchito feliz muy feliz</td>
+            <td>$2.000.-</td>
+        </tr>
+    </table>
+    <br>
+
+    <form action="/Formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" type="text" name="nombre">
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido">
+        <br> 
+        <label for="clave">Contraseña</label>
+        <input type="password">
+        <br> <br>
+        <label for="comenta">Comentario</label>
+        <br>
+        <textarea name="Comentario" id="comentario" cols="30" rows="10" placeholder="Ingrese un comentario"></textarea>
+        <br>
+        <input type="submit">
+        <br> <br>
+        <input type="radio"> <input type="email"> <input type="checkbox"> <input type="file"> <br><br>
+        <button type="button">De Tipo Botón</button>
+        <button type="menu">De Tipo Menú</button>
+    </form>
+    <h3>Este es nuestro mundo</h3>
+    <img src="mundo.jpg" alt="Planeta Tierra">
+    <div> <h2>Soy un titulo dentro de un Div</h2> 
+    <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga vel dolorum repellendus natus impedit doloribus eius quasi sequi maxime est delectus laudantium illo, asperiores facilis? Repellendus sint nobis veniam delectus!</p></div>
+    <hr>
+    <main>Etiqueta de tipo contenedor</main>
+    <head>Etiqueta de tipo contenedor</head>
+    <footer>Etiqueta de tipo contenedor</footer>
+    <section>Etiqueta de tipo contenedor</section>
+    <article>Etiqueta de tipo contenedor</article>    
+    <p id="parrafo-id">Este es un parrafo especial, tiene un ID en el código, <br> para poder identificarlo y aplicarle estilo.</p>
 </body>
 </html>

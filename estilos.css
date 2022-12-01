@@ -11,3 +11,31 @@ p{
     color:chocolate;
     font-size: 18px;
 }
+
+/* Selectores de CSS */
+div h2{
+    color:darkblue;
+}
+
+/* IDs y Clases - Los IDs son unicos por cada elemento, las Clases son repetibles */
+#parrafo-id{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.parrafo{
+    color:darkgreen;
+    font-style: italic;
+}
+a, img{
+    display: block;
+}
+a{
+    margin: 30px 20px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{color:blue;}
+img{
+    width: 70%;
+    margin: auto;
+}
