@@ -1,5 +1,5 @@
 body{
-    background-color: aqua;
+    background-color:burlywood;
     font-family: 'roboto', sans-serif;
 }
 
@@ -38,4 +38,8 @@ a:hover{color:blue;}
 img{
     width: 70%;
     margin: auto;
+}
+table, th, td{
+    border-style: double;
+    color: black;
 }
